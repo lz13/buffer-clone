@@ -6,11 +6,3 @@
   <h6>Powered by <a href="https://gorails.com/series/rails-6-for-beginners", target="_blank">GoRails</a></h6>
 </div>
 
-<% if @user %>
-  Logged in as <%= @user.email %>
-
-  <%= button_to "Log Out", logout_path, method: :delete %>
-
-<% end %>
-
-
