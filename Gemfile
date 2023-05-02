@@ -59,3 +59,5 @@ gem 'pg', '~> 1.1'
 
 gem "omniauth-twitter", "~> 1.4"
 gem "omniauth-rails_csrf_protection", "~> 1.0"
+
+gem "twitter", "~> 8.0"
